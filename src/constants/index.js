@@ -9,20 +9,23 @@ export const ABOUT_TEXT = `I have been working as a software engineer at Infogai
 
 export const EXPERIENCES = [
   {
-    year: "2023 - Present",
+    year: "2022 - Present",
     role: "Software Engineer",
     company: "Infogain",
-    description: `During my role as a React developer, I am collaborating closely with Mitchell, a distinguished client in the insurance industry. I am spearheading the development of a file comparison tool that brought significant optimization to the client's workflow, resulting in notable time savings. Leveraging React and Tailwind CSS, I worked alongside seasoned colleagues to artfully refine the user interface of this invaluable tool, ensuring a seamless user experience. Additionally, I contributed to the development of the test runner tool's user interface, automating the execution of test cases with precision and efficiency.`,
-    technologies: ["HTML5", "CSS3", "Javascript", "React.js", "TailwindCSS", "React Router", "Component-based architecture", "Code Quality"],
+    description: [
+      "Excelling as a top-tier React developer in collaboration with Mitchell, an elite client in the insurance industry.",
+      "Developing a dashboard application using Next.js, TypeScript, and Axios to provide users with real-time updates on their health insurance claims, reducing claim inquiry response time by 25% and increasing user engagement by 20%.",
+      "Spearheading the development of a file comparison tool that dramatically optimized the client’s workflow, slashing processing time by an astounding 40%.",
+      "Orchestrated a seamless collaboration with a team of 5 experts to refine the UI using React and Tailwind CSS, resulting in a 30% increase in user satisfaction. Received the Employee of the Month award.",
+      "Instrumental in the development of the test runner tool’s UI, automating the execution of over 100 test cases with 95% accuracy.",
+      "Utilized rigorous testing methodologies to identify and document over 200 software defects, significantly improving application quality.",
+      "Delivered impactful presentations and demos to 30+ stakeholders, fostering transparency and collaboration.",
+      "Achieved Microsoft Azure AZ-900 certification, demonstrating proficiency in cloud fundamentals."
+    ],
+    technologies: ["HTML5", "CSS3", "JavaScript", "React.js", "Next.js","Axios","Typescript","Tailwind CSS", "React Router", "Component-based architecture", "Code Quality"],
   },
-  {
-    year: "2022 - 2023",
-    role: "Software Engineer",
-    company: "Infogain",
-    description: `In my role at Mitchell Insurance, I was deeply involved in Quality Assurance responsibilities, ensuring the smooth operation of software systems. Employing rigorous testing methodologies, I identified and reported software defects, playing a key role in enhancing product quality. Conducting thorough regression testing was essential to validate software changes and updates, maintaining the stability and reliability of desktop applications. Furthermore, I took charge of organizing presentations and demos at the end of sprints, engaging with over 30 stakeholders to showcase project progress and gather valuable feedback for further enhancements.`,
-    technologies: ["Manual Testing", "Test Case Design", "Regression Testing", "Functional Testing", "Communication Skills", "Collaboration", "Teamwork"],
-  }
 ];
+
 
 export const PROJECTS = [
   {
