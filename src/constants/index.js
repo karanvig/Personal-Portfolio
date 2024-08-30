@@ -14,7 +14,7 @@ export const EXPERIENCES = [
     company: "Infogain",
     description: [
       "Excelling as a top-tier React developer in collaboration with Mitchell, an elite client in the insurance industry.",
-      "Developing a dashboard application using Next.js, and Axios to provide users with real-time updates on their health insurance claims, reducing claim inquiry response time by 25% and increasing user engagement by 20%.",
+      "Developing a dashboard application using Next.js and Axios to provide users with real-time updates on their health insurance claims, reducing claim inquiry response time by 25% and increasing user engagement by 20%.",
       "Spearheading the development of a file comparison tool that dramatically optimized the client’s workflow, slashing processing time by an astounding 40%.",
       "Orchestrated a seamless collaboration with a team of 5 experts to refine the UI using React and Tailwind CSS, resulting in a 30% increase in user satisfaction. Received the Employee of the Month award.",
       "Instrumental in the development of the test runner tool’s UI, automating the execution of over 100 test cases with 95% accuracy.",
