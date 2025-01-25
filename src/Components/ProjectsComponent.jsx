@@ -18,7 +18,6 @@ const Projects = () => {
             <motion.div whileInView={{ opacity: 1, x: 0 }} initial={{ opacity: 0, x: 100 }} transition={{ duration: 1 }} className="w-full max-w-xl lg:w-3/4">
               <h6 className="mb-2 font-semibold text-gray-600">{item.title}</h6>
               <p className="mb-4 text-gray-500">{item.description}</p>
-              <a href={item.hostedLink} target="_blank" rel="noopener noreferrer" className="mb-4 text-gray-700 hover:text-gray-900 ">{item.title}</a>
 
               <div className="mb-4 mt-4">
                 {item.technologies.map((tech, index) => (
